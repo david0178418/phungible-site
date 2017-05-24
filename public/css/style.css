@@ -65,6 +65,8 @@ ul.big-btns li a.btn-gr{
 	background:#B9B9B9;
 	border:2px solid #B9B9B9;
 	color:#FFF;
+	display: inline-block;
+	margin-top: 10px;
 }
 ul.big-btns li a.btn-gr:hover{
 	background:#FFF;
