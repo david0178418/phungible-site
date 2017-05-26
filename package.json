@@ -5,10 +5,11 @@
   "main": "build/index.html",
   "scripts": {
     "build:prod": "export NODE_ENV='production' && gulp build",
+    "eslint": "eslint",
     "gulp": "gulp",
     "server": "http-server ./public/",
     "start": "gulp build:dev & npm run server",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "eslint ./src/js/index.js",
     "webpack": "webpack"
   },
   "repository": {

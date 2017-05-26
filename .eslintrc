@@ -6,7 +6,7 @@
 		"node": true
 	},
 	"extends": [
-	"eslint:recommended"
+		"eslint:recommended"
 	],
 	"installedESLint": true,
 	"parser": "babel-eslint",
