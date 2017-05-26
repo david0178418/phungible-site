@@ -16,8 +16,8 @@ function generateHtmlTask() {
 }
 
 function copyStaticAssetsTask() {
-	return gulp.src('./src/images/**/*')
-		.pipe(gulp.dest('./public/images/'));
+	return gulp.src('./src/static/**/*')
+		.pipe(gulp.dest('./public/'));
 }
 
 function bundleTask() {

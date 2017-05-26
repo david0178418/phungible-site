@@ -86,7 +86,7 @@ ul.usefull-for li a span{
 	width:34px;
 	height:34px;
 	display:inline-block;
-	background:url(../images/avilable-for.png) no-repeat 0px 0px;
+	background:url(../static/images/avilable-for.png) no-repeat 0px 0px;
 }
 ul.usefull-for li a.u-apple span{
 	background-position:0px 0px;
@@ -134,7 +134,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0097a7', end
 	width: 89px;
 	height: 72px;
 	display: inline-block;
-	background: url(../images/lined-icons.png) no-repeat 0px 0px;
+	background: url(../static/images/lined-icons.png) no-repeat 0px 0px;
 }
 .top-grid span.t-icon1{
 	background-position:0px 0px;
@@ -189,7 +189,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0097a7', end
 	width:44px;
 	height:44px;
 	display:inline-block;
-	background: url(../images/fea-cions.png) no-repeat 0px 0px;
+	background: url(../static/images/fea-cions.png) no-repeat 0px 0px;
 }
 .fea-grids-left-grid-right h4{
 	color: #0097A7;
@@ -360,7 +360,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0097a7', end
 	width:46px;
 	height:46px;
 	display:inline-block;
-	background:url(../images/social-icons.png) no-repeat 0px 0px;
+	background:url(../static/images/social-icons.png) no-repeat 0px 0px;
 }
 .social-icons ul li a.twitter span{
 	background-position:0px 0px;
@@ -435,7 +435,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0097a7', end
 	height: 40px;
 	border: none;
 	text-indent: 100%;
-	background: url("../images/to-top.png") no-repeat 0px 0px;
+	background: url("../static/images/to-top.png") no-repeat 0px 0px;
 }
 #toTopHover {
 	width: 40px;
