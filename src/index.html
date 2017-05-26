@@ -10,31 +10,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<title>Phungible </title>
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 		<link rel="icon" href="/favicon.ico" type="image/x-icon">
-		<link href="css/bootstrap.css" rel='stylesheet' type="text/css" />
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link href="css/style.css" rel='stylesheet' type='text/css' />
-		<link href="css/owl.carousel.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href="/styles.css" type="text/css" rel="StyleSheet" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
 		<div class="container">
 			<div class="header">
-				<div class="col-md-5 header-left">
-					<div class="sreen-gallery-cursual">
-						<div id="owl-demo" class="owl-carousel">
-							<div class="item">
-								<img src="images/device1.png" title="name" />
-							</div>
-							<div class="item">
-								<img src="images/device2.png" title="name" />
-							</div>
-							<div class="item">
-								<img src="images/device3.png" title="name" />
-							</div>
-						</div>
-						<!--//sreen-gallery-cursual---->
-					</div>
-				</div>
 				<div class="col-md-7 header-right">
 					<a href="#"><img src="images/icon-pig.png" title="phungible" /></a>
 					<p>Simple, secure budgeting.</p>
@@ -48,6 +31,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<li><a class="u-and"href="#"><span> </span></a></li>
 						<li><a class="u-windows" href="#"><span> </span></a></li>
 					</ul> -->
+				</div>
+				<div class="col-md-5 header-left">
+					<div class="sreen-gallery-cursual">
+						<div id="owl-demo" class="owl-carousel">
+							<div class="item">
+								<img width="352" height="655" src="images/device1.png" title="name" />
+							</div>
+							<div class="item">
+								<img width="352" height="655" src="images/device2.png" title="name" />
+							</div>
+							<div class="item">
+								<img width="352" height="655" src="images/device3.png" title="name" />
+							</div>
+						</div>
+						<!--//sreen-gallery-cursual---->
+					</div>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -206,70 +205,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<p>Google Play and the Google Play logo are trademarks of Google Inc.</p>
 			</div>
 			<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+			<script src="/bundle.js"></script>
 		</div>
 	</body>
-	<script src="js/jquery.min.js"></script>
-	<script type="application/x-javascript">
-		addEventListener("load", function() {
-			setTimeout(hideURLbar, 0);
-		}, false);
-
-		function hideURLbar() {
-			window.scrollTo(0, 1);
-		}
-	</script>
-	<script type="text/javascript" src="js/move-top.js"></script>
-	<script type="text/javascript" src="js/easing.js"></script>
-	<script type="text/javascript">
-		jQuery(document).ready(function ($) {
-			$(".scroll").click(function (event) {
-				event.preventDefault();
-				$('html,body').animate({
-					scrollTop: $(this.hash).offset().top
-				}, 1000);
-			});
-		});
-	</script>
-	<script src="js/owl.carousel.js"></script>
-	<script>
-		$(document).ready(function () {
-			$("#owl-demo").owlCarousel({
-				items: 1,
-				lazyLoad: true,
-				autoPlay: true,
-				navigation: false,
-				navigationText: false,
-				pagination: true,
-			});
-		});
-	</script>
-	<script>
-		$(document).ready(function () {
-			$("#owl-demo1").owlCarousel({
-				items: 1,
-				lazyLoad: true,
-				autoPlay: true,
-				navigation: false,
-				navigationText: false,
-				pagination: true,
-			});
-		});
-	</script>
-<script type="text/javascript">
-	$(document).ready(function () {
-		/*
-		var defaults = {
-			containerID: 'toTop', // fading element id
-			containerHoverID: 'toTopHover', // fading element hover id
-			scrollSpeed: 1200,
-			easingType: 'linear'
-		};
-		*/
-
-		$().UItoTop({
-			easingType: 'easeOutQuart'
-		});
-
-	});
-</script>
 </html>
