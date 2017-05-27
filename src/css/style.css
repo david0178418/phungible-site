@@ -21,6 +21,10 @@ body a{
 .header {
 	padding: 3em 0;
 }
+.header-right,
+.header-left {
+	text-align: center;
+}
 .header-right{
 	margin-top: 8em;
 }
@@ -895,3 +899,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0097a7', end
 /* Rules for using icons as white on a dark background. */
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
 .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+.sreen-gallery-cursual .owl-carousel {
+	display: inline-block;
+	max-width: 445px;
+}

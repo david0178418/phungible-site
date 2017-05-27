@@ -10,8 +10,6 @@ let cache = true;
 
 if(isProd) {
 	cache = false;
-	devtool = 'source-map';
-	watch = false;
 	prodPlugins = prodPlugins.concat([
 		new webpack.DefinePlugin({
 			'process.env': {
@@ -49,6 +47,8 @@ if(isProd) {
 		}),
 		new webpack.optimize.AggressiveMergingPlugin(),
 	]);
+} else {
+	devtool = 'source-map';
 }
 
 
