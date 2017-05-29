@@ -5,6 +5,7 @@
   "main": "build/index.html",
   "scripts": {
     "build:prod": "export NODE_ENV='production' && gulp build",
+    "clean": "rm -Rf ./public/",
     "eslint": "eslint",
     "gulp": "gulp",
     "server": "http-server ./public/",
