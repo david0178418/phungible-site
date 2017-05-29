@@ -41,4 +41,3 @@ Run `npm start`.  Open `http://localhost:8080`.  Edit html, css, and jquery file
 * Run `git merge upstream/master` to get updates from central "Phungible" repo
 * Return to work by checking out original branch with `git checkout <my-branch-name>`.
 * Retrieve changes from stash with `git stash pop`
-
