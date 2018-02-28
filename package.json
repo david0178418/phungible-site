@@ -6,7 +6,9 @@
   "scripts": {
     "build:prod": "export NODE_ENV='production' && gulp build",
     "clean": "rm -Rf ./public/",
+    "deploy": "firebase deploy",
     "eslint": "eslint",
+    "firebase": "firebase",
     "gulp": "gulp",
     "server": "http-server ./public/",
     "start": "gulp build:dev & npm run server",
@@ -34,6 +36,7 @@
     "expose-loader": "^0.7.3",
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^0.11.1",
+    "firebase-tools": "^3.17.4",
     "gulp": "^3.9.1",
     "gulp-cache-bust": "^1.1.0",
     "gulp-htmlmin": "^3.0.0",
